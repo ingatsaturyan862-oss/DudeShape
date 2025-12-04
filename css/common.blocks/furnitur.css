@@ -1,0 +1,149 @@
+.furniture {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.furniture__container {
+    padding: 30px;
+}
+
+.furniture__title {
+    text-align: center;
+    color: var(--primary-color);
+    padding: 25px;
+
+}
+
+.furniture__list {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 80px;
+
+}
+
+.list-reset {}
+
+.furniture__item {
+    margin-bottom: 25px;
+}
+
+.furniture__button {
+    background-color: transparent;
+    font-size: 24px;
+    color: gray;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    text-align: center;
+}
+
+.furniture__button:hover {
+    color: var(--primary-color);
+}
+
+.furniture__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    min-height: 390px;
+}
+
+.furniture__img-box {
+    position: relative;
+    padding: 10px;
+
+    &::before,
+    &::after {
+        content: "";
+        position: absolute;
+        width: 190px;
+        height: 85px;
+        background-color: var(--primary-color);
+        z-index: -1;
+    }
+}
+
+.furniture__img-box::before {
+    content: "";
+    left: 0;
+    top: 0;
+}
+
+.furniture__img-box::after {
+    content: "";
+    right: 0;
+    bottom: 4px;
+}
+
+.furniture__img {
+    height: 100%;
+}
+
+.furniture__content-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    width: 100%;
+    justify-items: center;
+
+
+}
+
+.furniture__content-item {
+    width: 100%;
+}
+
+.furniture__content-button {
+    width: 100%;
+    padding: 15px;
+    background-color: transparent;
+    border: 1px solid gray;
+    cursor: pointer;
+    color: #808080;
+}
+
+.furniture__content-button:hover {
+    color: white;
+    background-color: var(--primary-color);
+}
+
+.furniture__content-icon {
+    width: 24px;
+    height: 24px;
+    margin-bottom: 15px;
+
+}
+
+.furniture__content-title {
+    margin: 0;
+    color: inherit;
+}
+
+@media (min-width: 768px) {
+    .furniture__content {
+        flex-direction: row;
+
+    }
+
+    .furniture__content-list {
+        width: auto;
+    }
+
+    .furniture__content-button {
+        width: 220px;
+    }
+
+    .furniture__list {
+        justify-content: space-between;
+    }
+
+}

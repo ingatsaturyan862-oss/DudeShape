@@ -1,0 +1,32 @@
+.company {
+    padding: clamp(2.5rem, 0.7143rem + 8.9286vw, 8.75rem)0;
+}
+
+.container {}
+
+.company__container {
+    /* max-width: 1100px; */
+    text-align: center;
+}
+
+.company__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.company__title {
+    margin-bottom: 40px;
+
+}
+
+.list-reset {}
+
+.company__item {
+    flex-shrink: 0;
+}
+
+.company__link {}
+
+.img__company {}

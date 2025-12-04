@@ -1,0 +1,69 @@
+.furniture {}
+
+.furniture__title {
+    font-size: 32px;
+    line-height: 162%;
+    color: #242424;
+    padding-left: 80px;
+}
+
+.furniture__text {
+    font-size: 20px;
+    line-height: 135%;
+    padding-left: 80px;
+}
+
+.container__box {
+    padding: 80px;
+}
+
+.list__box {
+
+    display: flex;
+    gap: 30px;
+
+
+
+}
+
+.list-reset {}
+
+.furniture__item {
+    box-shadow: 0 26px 26px 0 rgba(0, 0, 0, 0.07);
+    background: #fff;
+}
+
+.img__furnitur {}
+
+.list__title {
+    padding-left: 25px;
+}
+
+.furnitur__icon {
+    width: 26px;
+    height: 26px;
+}
+
+.list__text {
+    font-size: 24px;
+
+}
+
+.furnitur__icon {
+    cursor: pointer;
+
+}
+
+.list__title {
+    font-size: 20px;
+}
+
+.furnitur__button {
+    background-color: var(--primary-color);
+    color: #fff;
+    /* margin: 27px; */
+    padding: 10px;
+    font-size: 12px;
+    cursor: pointer;
+
+}

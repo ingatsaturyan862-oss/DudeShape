@@ -1,0 +1,38 @@
+.portfolio {}
+
+.portfolio__container {
+
+
+    padding-bottom: 47px;
+    font-size: 34px;
+    text-align: center;
+    color: var(--black);
+    background: #f6f6f6;
+
+}
+
+.portfolio__title {}
+
+.portfolio__list {}
+
+.list-reset {}
+
+.portfolio__item {
+    padding-top: 47px;
+}
+
+.portfolio__item-img {}
+
+.portfolio__item-link {
+    font-family: var(--second-family);
+    font-size: 18px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    text-align: center;
+    color: var(--black);
+}
+
+.portfolio__item-link:hover {
+
+    color: rgb(77, 124, 255);
+}

@@ -1,0 +1,43 @@
+.contact__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+}
+
+
+
+.contact__title {
+
+    font-weight: 400;
+    font-size: 34px;
+    text-align: center;
+    color: var(--black);
+}
+
+
+
+.contact__text {
+    font-family: var(--second-family);
+    font-size: 700px;
+    font-size: 18px;
+    text-align: center;
+    color: var(--black);
+}
+
+
+
+.contact__button {
+    width: 180px;
+    height: 42px;
+    color: #fff;
+    border-radius: 30px;
+    background: blue;
+    margin: auto;
+    cursor: pointer;
+}
+
+.contact__button:hover {
+    background-color: #fff;
+    color: black;
+}
